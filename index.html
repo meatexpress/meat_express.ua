@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Копчення | Соцмережі</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: url('background.jpg') center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 60px;
+            border-radius: 25px;
+            text-align: center;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 36px;
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        p {
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+
+        .socials {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .socials a {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 30px;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .instagram {
+            background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+        }
+
+        .telegram {
+            background: #0088cc;
+        }
+
+        .socials a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 30px rgba(255,255,255,0.2);
+        }
+
+        .footer {
+            margin-top: 40px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <!-- ЛОГОТИП -->
+    <div style="margin-bottom:30px;">
+        <img src="logo.png" alt="Логотип" style="width:380px; max-width:90%; filter: drop-shadow(0 10px 30px rgba(0,0,0,0.8));">
+    </div>
+
+    <h1>КОПЧЕННЯ ПРЕМІУМ</h1>
+    <p>Домашнє копчення м'яса та риби</p>
+
+    <div class="socials">
+        <!-- ВСТАВ СВОЄ посилання на Instagram -->
+        <a href="https://www.instagram.com/meat_express.ua/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+
+        <!-- ВСТАВ СВОЄ посилання на Telegram -->
+        <a href="https://t.me/meat_express" target="_blank" class="telegram"><i class="fab fa-telegram"></i></a>
+    </div>
+
+    <div class="footer">
+        © 2026 Копчення
+    </div>
+</div>
+
+</body>
+</html>
